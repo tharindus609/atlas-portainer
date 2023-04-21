@@ -13,7 +13,7 @@ services:
     command: -H tcp://portainer_agent:9001 --tlsskipverify
     restart: always
     ports:
-      - 9443:9443
+      - 9443:9000
     volumes:
       - data:/data
 
